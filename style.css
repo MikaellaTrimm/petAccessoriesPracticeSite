@@ -1,0 +1,216 @@
+body{
+  width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FF7056;
+}
+main{
+  padding: 0;
+  margin: 0 auto;
+  height: 800px;
+  background-color: white;
+}
+
+/* nav */
+nav{
+  width: 980px;
+  margin: 0 auto;
+  padding: 0;
+}
+nav ul{
+  width: 980px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+nav li{
+  display: inline;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+}
+nav a{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #123126;
+  text-decoration: none;
+  background-color: #5CD6FF;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  padding: 10px 20px;;
+  width: 156px;
+  margin: 0 auto;
+}
+nav a:hover{
+  border-bottom: 3px groove #266174;
+  border-top: 3px groove #266174;
+  color: #266174;
+}
+
+
+/* images */
+#mainDog,#happydogs{
+  display: block;
+  margin: 0 auto;
+}
+header img,.second_img{
+  display: block;
+  float: left;
+  width: 980px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* other */
+.contact_box{
+  display: inline-block;
+  margin: 40px;
+  width: 40%;
+  border: 2px solid #266174;
+  border-radius: 20px;
+}
+h2,h3{
+  padding-left: 10px;
+}
+p{
+  padding-left: 20px;
+}
+footer{
+  background-color: #2CBAE9;
+  margin: 0 auto;
+  padding: 0;
+}
+.reviewer{
+  font-weight: bold;
+}
+.review{
+  font-style: italic;
+  font-size: 14px;
+}
+.review_box{
+  width: 80%;
+  margin: 5px auto;
+  padding: 10px;
+  border: 3px solid #266174;
+  border-radius: 20px;
+  height: 70px;
+  background-color: #2CBAE9;
+}
+.review_box p{
+  display: inline;
+  margin: 5px;
+  padding: 10px;
+}
+.review_box img{
+  display: inline;
+  float: left;
+  margin: 5px;
+  padding: 0;
+}
+.form {
+  width: 60%;
+  background-color: #FFCD56;
+  border: 2px solid #BA9438;
+  padding: 5px;
+  display: block;
+  margin: 12px auto;
+}
+input, textarea {
+  display: block;
+  margin: 4px;
+}
+label {
+  padding-right: 5px;
+  text-align: right;
+  margin-left: 3px;
+  float: left;
+}
+.product{
+  border: 1px solid black;
+  margin: 2px auto;
+  width: 200px;
+  display: inline-block
+}
+.product img {
+  display: block;
+  margin: 0 auto;
+}
+
+.animal {
+  color: #FF4928;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 20px;
+  padding-left: 50px;
+  text-shadow: 3px 4px #FFCD56;
+}
+
+/* media for smaller screen */
+@media only screen and (max-width: 986px) {
+  body{
+    max-width: 986px;
+    width: 80%;
+    padding: 0;}
+
+  main{
+    max-height: none;
+    height: 80%;
+    margin: 0;
+    padding: 0;}
+
+  p {
+    padding-right: 20px;}
+
+  .contact_box {
+    width: 80%;
+    margin: 20px;}
+
+  #mainDog, #happydogs {
+    max-width: 450px;
+    width: 90%;
+    padding-bottom: 20px;}
+
+  header img, .second_img {
+    max-width: 986px;
+    width: 100%;
+    margin: 0;
+    padding: 0;}
+
+  .product {
+    display: block;
+    max-width: 300px;
+    width: 50%;}
+
+  .review_box {
+    min-height: 96px;
+    height: 30%;}
+
+  textarea {
+    max-width: 373px;
+    width: 90%;}
+
+  input {
+    width: 80%;}
+
+  nav, nav ul {
+    max-width: 800px;
+    width: 100%;
+    padding: 0;
+    margin: 0;}
+
+  nav li {
+    display: block;
+    width: 90%;
+    float: none;}
+
+  nav a {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;}
+
+
+}
